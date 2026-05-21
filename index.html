@@ -1567,10 +1567,11 @@
     outline: 3px solid #fff;
     outline-offset: 3px;
   }
-  #accessibility-panel {
+#accessibility-panel {
     position: fixed;
     bottom: 96px;
-    right: 28px;
+    left: 28px;       /* משנה את המיקום לצד שמאל מעל כפתור הנגישות */
+    right: auto;      /* מבטל את המיקום הימני הישן */
     z-index: 9999;
     background: #2a2a2a;
     border: 1px solid rgba(21,101,192,0.5);
